@@ -1,0 +1,353 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: auto;   
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 230px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .kt2, .kt3 {
+    flex: 1;
+    height: 80px;
+}
+
+.lg {
+    width: 330px;
+    height: 230px;
+    background: rgb(0, 255, 30);
+    
+}
+
+.tk {
+    width: 777px;
+    height: 55px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tk input {
+    width: 80%;
+    padding: 15px;
+    font-size: 16px;
+    border: 4px solid #000000;
+    border-radius: 10px;
+}
+
+        
+.kl {
+    width:60px;
+    height: 50px;
+    background: #ffffff;
+    margin-right: 50px;
+    border: 4px solid #000000;
+    border-radius: 10px;
+}
+
+.kl img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.chu {
+    width: 600px;
+    height: 150px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+.chu h1 {
+    font-style: italic;
+}
+
+.marquee {
+    display: flex;
+    background: #63b9ff;
+    align-items: center;
+    height: 100px;
+    
+    font-size: 30px;
+}
+
+.marquee a {
+    display: flex;
+    align-items: center;
+
+}
+
+.img-marquee {
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.content {
+    width: 100%;
+    background: bisque;
+}
+
+
+
+.menu {
+    width: 25%;
+    background: rgb(255, 255, 255);
+    float: left;
+    margin-left: 40px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 0px #555;
+}
+
+.chumenu {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.menu1 {
+    width: 100%;
+   
+}
+
+.menu1 ul {
+    padding: 0;
+    margin: 0;
+}
+
+.menu1 ul li {
+    list-style: none;
+    padding: 23px 20px;
+    font-size: 30px;
+    border-bottom: 5px #000000 ridge;
+}
+.menu1 ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu1 ul li:hover {
+    background: aqua;
+    border-radius: 10px;
+    transform: scale(1.03);
+}
+
+.chuchuthich {
+    width: 100%;
+    height: 80px;
+    
+    text-align: center;
+    font-size: 20px;
+}
+
+.chuthich {
+    width: 100%;
+    height: 320px;
+    
+}
+
+.chuthich img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.chuthich td {
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+}
+img.ngoinha{
+    margin: 0px 0px -10px 150px;
+}
+img.xemenu{
+    margin: 0px 0px -10px 220px;
+}
+img.gioohanggg{
+    margin: 0px 0px -10px 157px;
+}
+img.person{
+    margin: 0px 0px -10px 137px;
+}
+.sanpham-display {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+    width: 65%;
+    float: right;
+    background: #f3f3f3;
+    border-radius: 15px;
+}
+
+.sanpham {
+    width: calc(30% - 20px);
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 10px 0px #000000;
+}
+
+.sanpham img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.sanpham h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.sanpham p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.sanpham button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.sanpham button a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.sanpham button:hover {
+    background-color: #555;
+}
+
+.gia {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.sanpham-heading {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    background: rgb(0, 0, 0);
+    float: left;
+    color: #ffffff;
+}
+#product-image3 {
+    width: 210px;
+    height: 155px;
+}
+#product-image2 {
+    width: 250px;
+    height: 155px;
+}
+#product-image5 {
+    width: 250px;
+    height: 155px;
+}
+#product-image6{
+    width: 250px;
+    height: 155px;
+}
+#product-image7{
+    width: 300px;
+    height: 145px;
+}
+#product-image8{
+    width: 270px;
+    height: 155px;
+}
+#product-image9{
+    width: 270px;
+    height: 145px;
+}
+#product-image4{
+    width: 270px;
+    height: 155px;
+}
+#product-image{
+    width: 270px;
+    height: 145px;
+}
+.f1{
+	width:250px;
+	height:300px;
+	float:left;
+	margin-left:60px;
+	margin-bottom:30px;
+	margin-top:30px;
+	
+	font-size:16px;
+	color:#FFF;
+	}
+	.f2{
+	width:450px;
+	height:300px;
+	float:left;
+	margin-left:60px;
+	margin-bottom:30px;
+	margin-top:30px;
+	
+	color:#FFF;
+	}
+	.f3{
+	width:250px;
+	height:300px;
+	float:left;
+	margin-left:60px;
+	margin-bottom:30px;
+	margin-top:30px;
+	
+	color:#FFF;
+	}
+	.f3 h2{
+	text-align:center;
+	}
+	.f3 a{
+	margin-left:20px;
+	}
+	.f4{
+	width:400px;
+	height:300px;
+	float:left;
+	margin-left:60px;
+	margin-bottom:30px;
+	margin-top:30px;
+	
+	color:#FFF;
+	}
+	.f4 h2{
+		text-align:center;
+	}
+	.f4 img{
+		margin-left:20px;
+	}
+.footer {
+    width: 100%;
+    height: auto;
+    background: #000000;
+    float: left;
+}
